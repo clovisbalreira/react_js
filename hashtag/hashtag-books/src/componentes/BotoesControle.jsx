@@ -6,7 +6,7 @@ const BotoesControle = (props) => {
         <button>
             <i className="bi bi-arrow-counterclockwise"></i>
             </button>
-        <button onClick={() => props.definirTaTocando(true)}>
+        <button onClick={props.tocarOuPausarFaixa}>
             <i className={`bi bi-${props.taTocando ? "pause" : "play"}-circle-fill`}></i>
             </button>
         <button>
